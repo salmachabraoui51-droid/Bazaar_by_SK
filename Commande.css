@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.commande{
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.commande h2{
+    text-align: center;
+    color: #7A562C;
+    margin-bottom: 20px;
+}
+
+.commande form{
+    display: flex;
+    flex-direction: column;
+}
+
+.commande input,
+.commande select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #7A562C;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.commande input:focus,
+.commande select:focus{
+    border-color: #7A562C;
+}
+
+.commande button{
+    width: 100%;
+    padding: 12px;
+    background: #7A562C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.commande button:hover{
+    background:#7A562C;
+}

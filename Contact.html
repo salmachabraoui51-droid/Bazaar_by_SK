@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="Bazaar.php">Accueil</a></li>
+        <li><a href="Décoration.php">Décoration</a></li>
+        <li><a href="Cuisine.php">Cuisine</a></li>
+        <li><a href="Accessoires.php">Accessoires</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+    <div class="contact-container">
+        <h1>Contactez-nous</h1>
+
+        <form action="succescontact.html" method="POST">
+
+            <label>Nom complet :</label>
+            <input type="text" name="nom" required>
+
+            <label>Email :</label>
+            <input type="email" name="email" required>
+
+            <label>Téléphone :</label>
+            <input type="tel" name="telephone">
+
+            <label>Message :</label>
+            <textarea name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
